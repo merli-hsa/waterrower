@@ -1,0 +1,18 @@
+[package]
+name = "waterrower"
+version = "0.1.0"
+description = """
+Command line tool to record WaterRower workout sessions
+"""
+authors = ["Dominik Merli <dominik.merli@hs-augsburg.de"]
+edition = "2018"
+license = "Apache-2.0 OR MIT"
+readme = "README.md"
+keywords = ["waterrower", "workout", "training", "exercise", "serial"]
+categories = ["sports"]
+
+[dependencies]
+structopt = "0.3"
+serialport = "4.0"
+csv = "1.1"
+chrono = "0.4"
